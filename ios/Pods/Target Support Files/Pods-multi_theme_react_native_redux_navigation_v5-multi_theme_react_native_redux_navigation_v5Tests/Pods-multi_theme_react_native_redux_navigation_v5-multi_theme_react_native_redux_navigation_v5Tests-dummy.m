@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_multi_theme_react_native_redux_navigation_v5_multi_theme_react_native_redux_navigation_v5Tests : NSObject
+@end
+@implementation PodsDummy_Pods_multi_theme_react_native_redux_navigation_v5_multi_theme_react_native_redux_navigation_v5Tests
+@end

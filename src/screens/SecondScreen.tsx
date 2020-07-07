@@ -4,7 +4,6 @@ import {
     StyleSheet,
     StatusBar,
     FlatList,
-    Dimensions,
     TouchableWithoutFeedback,
     View,
     Text
@@ -26,7 +25,6 @@ IconFeather.loadFont();
 
 
 // MY CONST
-
 export const ICON_SIZE = 40;
 
 const SecondScreen = () => {

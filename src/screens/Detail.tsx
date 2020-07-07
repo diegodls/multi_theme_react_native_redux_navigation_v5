@@ -1,4 +1,4 @@
-import React, { Props } from 'react';
+import React from 'react';
 import {
     SafeAreaView,
     View,
@@ -55,9 +55,6 @@ const Detail = () => {
             <SafeAreaView style={[styles.mainContainer, {
                 backgroundColor: colors.background_primary
             }]}>
-
-
-
                 <ScrollView
                     style={styles.scrollviewContainer}
                 >

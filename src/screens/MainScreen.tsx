@@ -58,7 +58,6 @@ const MainScreen = () => {
     }
 
 
-
     return (
         <>
             <StatusBar barStyle={currentThemeName !== DARK ? 'dark-content' : 'light-content'} backgroundColor={colors.background_primary} />
@@ -199,20 +198,17 @@ const styles = StyleSheet.create({
         justifyContent: 'space-around',
     },
     titleContainer: {
-        //backgroundColor: '#FC0',
         marginTop: 20,
         width: '100%',
         alignItems: 'center',
         justifyContent: 'center',
     },
     contentContainer: {
-        //backgroundColor: '#0CF',  
         width: '100%',
         alignItems: 'center',
         justifyContent: 'center',
     },
     footerContainer: {
-        //backgroundColor: '#C0F',
         alignItems: 'center',
         justifyContent: 'center',
         width: '100%',
@@ -229,13 +225,11 @@ const styles = StyleSheet.create({
         fontSize: 12,
     },
     imgContainer: {
-        //backgroundColor: '#C0F',
         width: '60%',
         height: '60%',
         overflow: 'hidden',
     },
     imgLogo: {
-        //backgroundColor: '#FC0',
         width: '100%',
         height: '100%',
         resizeMode: 'contain',
@@ -246,8 +240,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'space-between',
         padding: 10,
-
-
     },
     buttonOption: {
         alignItems: 'center',
@@ -257,7 +249,6 @@ const styles = StyleSheet.create({
         borderRadius: 25,
         borderWidth: 1,
     },
-
     inputContainer: {
         width: '100%',
         height: 60,

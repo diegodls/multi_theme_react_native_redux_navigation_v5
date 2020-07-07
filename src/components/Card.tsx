@@ -35,46 +35,46 @@ const { width: SCREEN_WIDTH } = Dimensions.get('window');
 const SCREEN_WIDTH_95 = (SCREEN_WIDTH * 95) / 100;
 
 const Card = (item: ItemProps) => {
+
     const navigation = useNavigation();
     const { colors } = useTheme();
-    const { currentThemeName } = useSelector((state: RootState) => { return state.themeReducer });
+
 
     function handlerNavigationDetail() {
-        //navigation.navigate('Detail', {...item})
+        navigation.navigate('Detail', { ...item });
     }
 
     return (
-        <TouchableWithoutFeedback onPress={handlerNavigationDetail} 
-        style={[styles.mainContainer, {
-            backgroundColor: colors.background_primary,
-            shadowColor: colors.shadowColor_primary,
-        }]}>
-
-
+        <TouchableWithoutFeedback onPress={handlerNavigationDetail}
+            style={[styles.mainContainer, {
+                backgroundColor: colors.background_secondary,
+                shadowColor: colors.shadowColor_primary,
+            }]}>
+            
                 <ImageScalable source={selectPostImage(item.image)} width={SCREEN_WIDTH_95} />
+         
+            <View style={[styles.textContainer, {
+                backgroundColor: colors.background_secondary,
+            }]}>
 
-                <View style={[styles.textContainer, {
-                    backgroundColor: colors.background_secondary,
-                }]}>
-
-                    <View style={styles.description}>
-                        <Text
-                            numberOfLines={1}
-                            style={{
-                                color: colors.font_primary
-                            }}
-                        >{item.description}</Text>
-                    </View>
-
-                    <View style={styles.readMore}>
-                        <Text
-                            numberOfLines={1}
-                            style={{
-                                color: colors.font_primary
-                            }}>Leia Mais</Text>
-                    </View>
-
+                <View style={styles.description}>
+                    <Text
+                        numberOfLines={1}
+                        style={{
+                            color: colors.font_primary
+                        }}
+                    >{item.description}</Text>
                 </View>
+
+                <View style={styles.readMore}>
+                    <Text
+                        numberOfLines={1}
+                        style={{
+                            color: colors.font_primary
+                        }}>Leia Mais</Text>
+                </View>
+
+            </View>
 
         </TouchableWithoutFeedback>
     )
@@ -85,16 +85,22 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         marginVertical: 10,
-        overflow: 'hidden',
         width: SCREEN_WIDTH_95,
-        borderRadius: 15,
+        borderRadius: 8,
+        overflow: 'hidden',
         shadowOffset: {
             width: 0,
             height: 3,
         },
         shadowOpacity: 0.27,
-        shadowRadius: 4.65,        
+        shadowRadius: 4.65,
         elevation: 6,
+    },
+    imgContainer: {
+        width: '100%',
+        height: undefined,
+        borderRadius: 8,
+        overflow: 'hidden',
     },
     textContainer: {
         flex: 1,

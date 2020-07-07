@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:1:1-27:12
-MERGED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:1:1-27:12
+ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:1:1-28:12
+MERGED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:1:1-28:12
 MERGED from [com.facebook.flipper:flipper:0.33.1] /Users/diegol/.gradle/caches/transforms-2/files-2.1/b01ed30fc241efc3e930aaa1216e9ac1/jetified-flipper-0.33.1/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.33.1] /Users/diegol/.gradle/caches/transforms-2/files-2.1/7aaecf1ba100fc2b5c7bd873fc97ca8e/flipper-network-plugin-0.33.1/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.33.1] /Users/diegol/.gradle/caches/transforms-2/files-2.1/3d2e5e760b7631955e5e3deac6cfac47/flipper-fresco-plugin-0.33.1/AndroidManifest.xml:8:1-15:12
@@ -67,13 +67,13 @@ INJECTED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_nati
 		INJECTED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:1:1-28:12
 		INJECTED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:1:1-28:12
 		INJECTED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -84,9 +84,9 @@ MERGED from [com.facebook.flipper:flipper:0.33.1] /Users/diegol/.gradle/caches/t
 	android:name
 		ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:6:5-25:19
-MERGED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:6:5-25:19
-MERGED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:6:5-25:19
+ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:6:5-26:19
+MERGED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:6:5-26:19
+MERGED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:6:5-26:19
 MERGED from [com.facebook.react:react-native:0.62.2] /Users/diegol/.gradle/caches/transforms-2/files-2.1/1fb829ed8b0265ab629245e74a047dd5/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.62.2] /Users/diegol/.gradle/caches/transforms-2/files-2.1/1fb829ed8b0265ab629245e74a047dd5/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/diegol/.gradle/caches/transforms-2/files-2.1/35e22cd826274df1ea80004b3584bc82/soloader-0.8.2/AndroidManifest.xml:11:5-20
@@ -126,7 +126,9 @@ MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/diegol/.gradle/cache
 		ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:7:7-38
 		ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:7:7-38
 activity#com.multi_theme_react_native_redux_navigation_v5.MainActivity
-ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:13:7-23:18
+ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:13:7-24:18
+	android:screenOrientation
+		ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:19:9-45
 	android:label
 		ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:15:9-41
 	android:launchMode
@@ -138,19 +140,19 @@ ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_
 	android:name
 		ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:14:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:19:9-22:25
+ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:20:9-23:25
 action#android.intent.action.MAIN
-ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:20:13-65
+ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:21:13-65
 	android:name
-		ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:20:21-62
+		ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:21:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:21:13-73
+ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:22:13-73
 	android:name
-		ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:21:23-70
+		ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:22:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:24:7-84
+ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:25:7-84
 	android:name
-		ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:24:17-81
+		ADDED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml:25:17-81
 uses-sdk
 INJECTED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/src/main/AndroidManifest.xml

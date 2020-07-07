@@ -11,6 +11,8 @@ import image_10 from './imgs/image_post_10.jpeg'
 import image_11 from './imgs/image_post_11.jpeg'
 import image_12 from './imgs/image_post_12.jpeg'
 
+//import image_1 from require('./imgs/image_post_1.jpeg')
+
 export function selectPostImage(image) {
 
     switch (image) {

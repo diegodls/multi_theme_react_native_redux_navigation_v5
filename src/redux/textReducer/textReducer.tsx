@@ -1,7 +1,7 @@
 import { CHANGE_TEXT } from './textTypes'
 
 const initialState = {
-    text: 'Texto Inicial'
+    text: 'Digite o nome...'
 }
 
 const testReducer = (state = initialState, action: { type: any, payload: string }) => {

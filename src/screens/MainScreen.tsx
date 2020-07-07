@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
     View,
     Text,
@@ -8,6 +8,7 @@ import {
     Platform,
     StatusBar,
     Keyboard,
+    Alert,
 } from 'react-native';
 
 import IconFeather from 'react-native-vector-icons/Feather';
@@ -25,22 +26,38 @@ import { blueTheme, darkTheme, lightTheme, pinkTheme } from '../themes/themes';
 IconFeather.loadFont();
 
 const MainScreen = () => {
+
+    //NAVIGATION STUFF
     const navigation = useNavigation();
     const { colors } = useTheme();
+
+    //REDUX STUFF
     const dispatch = useDispatch();
-
     const { currentThemeName } = useSelector((state: RootState) => { return state.themeReducer });
-    const { text } = useSelector((state: RootState) => { return state.testReducer });
+    const { text } = useSelector((state: RootState) => { return state.textReducer });
 
-    function handleNavigation() {
-        Keyboard.dismiss();
-        navigation.navigate('SecondScreen');
-    }
+    //STATE AND DATAS
+    const [name, setName] = useState<string>('');
+
+
+    //FUNCTIONS
     function changeThemeToBlue() { dispatch(changeThemeBlue()); }
     function changeThemeToDark() { dispatch(changeThemeDark()); }
     function changeThemeToLight() { dispatch(changeThemeLight()); }
     function changeThemeToPink() { dispatch(changeThemePink()); }
-    function changeTextFunction() { dispatch(changeText('Texto Alterado')); }
+
+    function handleNavigation() {
+        if (name !== '') {
+            dispatch(changeText(name));
+            Keyboard.dismiss();
+            navigation.navigate('SecondScreen');
+        } else{
+            Alert.alert('Oooopssss...', 'Digite um nome primeiro!')
+        }
+
+    }
+
+
 
     return (
         <>
@@ -142,6 +159,8 @@ const MainScreen = () => {
                                 }]}
                                 placeholderTextColor={colors.font_primary}
                                 placeholder={'Digite o seu nome...'}
+                                value={name}
+                                onChangeText={setName}
                             />
                             <RectButton
                                 style={[{ backgroundColor: colors.button_primary }]}
@@ -236,7 +255,7 @@ const styles = StyleSheet.create({
         width: 50,
         height: 50,
         borderRadius: 25,
-        borderWidth: 2,
+        borderWidth: 1,
     },
 
     inputContainer: {

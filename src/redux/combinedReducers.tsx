@@ -1,11 +1,11 @@
 import { combineReducers } from 'redux';
 
 import themeReducer from '../redux/themeReducer/themeReducer';
-import testReducer from './textReducer/textReducer';
+import textReducer from './textReducer/textReducer';
 
 export const combinedReducers = combineReducers(
     {
-        testReducer: testReducer,
+        textReducer: textReducer,
         themeReducer: themeReducer
     }
 );

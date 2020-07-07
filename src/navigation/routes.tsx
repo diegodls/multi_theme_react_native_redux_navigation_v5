@@ -7,6 +7,7 @@ import { RootState } from '../redux/combinedReducers';
 
 import MainScreen from '../screens/MainScreen';
 import SecondScreen from '../screens/SecondScreen';
+import Detail from '../screens/Detail';
 
 const Stack = createStackNavigator();
 
@@ -20,6 +21,7 @@ const Routes = () => {
                 headerMode={'none'}>
                 <Stack.Screen name={'MainScreen'} component={MainScreen} />
                 <Stack.Screen name={'SecondScreen'} component={SecondScreen} />
+                <Stack.Screen name={'Detail'} component={Detail} />
             </Stack.Navigator>
         </NavigationContainer >
     )

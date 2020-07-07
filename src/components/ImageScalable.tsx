@@ -28,6 +28,9 @@ const ImageScalable = ({ width, source }: Props) => {
                 flex: 1,
                 width: width,
                 height: imgHeight,
+                borderRadius: 8,
+                overflow: 'hidden',
+
             }}
         >
             <Image

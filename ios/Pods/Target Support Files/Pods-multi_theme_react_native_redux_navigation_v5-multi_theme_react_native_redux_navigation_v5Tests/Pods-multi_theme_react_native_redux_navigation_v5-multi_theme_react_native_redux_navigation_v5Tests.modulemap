@@ -1,6 +1,0 @@
-module Pods_multi_theme_react_native_redux_navigation_v5_multi_theme_react_native_redux_navigation_v5Tests {
-  umbrella header "Pods-multi_theme_react_native_redux_navigation_v5-multi_theme_react_native_redux_navigation_v5Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

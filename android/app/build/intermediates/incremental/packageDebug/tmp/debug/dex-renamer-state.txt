@@ -1,4 +1,0 @@
-#Tue Jul 07 11:46:02 BRT 2020
-base.0=/Users/diegol/Desktop/React_Native_Projects/multi_theme_react_native_redux_navigation_v5/multi_theme_react_native_redux_navigation_v5/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

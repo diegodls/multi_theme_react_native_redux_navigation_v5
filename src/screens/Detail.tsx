@@ -45,7 +45,6 @@ const Detail = () => {
     //FUNCTIONS
     function handlerNavigationGoBack() { navigation.goBack() }
 
-
     return (
         <>
             <StatusBar
